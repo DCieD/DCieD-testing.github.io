@@ -1,3 +1,54 @@
 .quote {
     font-style:italic;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.list1 {
+    color: green;
+    font-style:italic;
+    padding: 0;
+    list-style: none;
+}
+
+.grid-table {
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 100%;
+}
+
+@media (min-width:600px) {
+    .grid-table {
+        grid-template-columns: 300px 300px;
+    }
+}
+
+@media (min-width: 900px) {
+    .grid-table {
+        grid-template-columns: 300px 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid-table {
+        grid-template-columns: 300px 300px 300px 300px;
+    }
+}
+
+.about-grid {
+    display:  grid;
+    grid-template-columns: 50% 50%;
+}
+
+.i-am, .i-like {
+    text-align: center;
+    text-decoration: none;
+}
+
